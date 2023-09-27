@@ -24761,19 +24761,19 @@ public miningpay(playerid)
 	new cost;
 	if(PlayerInfo[playerid][pMiningRock] == 1)
 	{
-		cost = 50 + random(200);
+		cost = 70 + random(200);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 2)
 	{
-		cost = 200 + random(200);
+		cost = 200 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 3) // Musgravite
 	{
-		cost = 350 + random(200);
+		cost = 350 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 4) // Gold
 	{
-		cost = 550 + random(200);
+		cost = 550 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 5) // Diamond
 	{
@@ -24782,21 +24782,21 @@ public miningpay(playerid)
 		{
 			case 0..40:
 			{
-				cost = 700 + random(200);
+				cost = 720 + random(250);
 				SendClientMessage(playerid, COLOR_WHITE, "Bam, a great stone indeed, the fact you can find stuff in this dump makes me wonder whether theres a diamond hidden in there somewhere.");
 				PlayerInfo[playerid][pDiamonds] ++;
 				SCM(playerid, COLOR_WHITE, "Damn! Bingo you just found a diamond along with that great stone!");
 			}
 			case 41..70:
 			{
-				cost = 950 + random(200);
+				cost = 1000 + random(200);
 				SendClientMessage(playerid, COLOR_WHITE, "Looks like a ruby, awesome. I'll be sending this Mining Enterprises immediately.");
 				PlayerInfo[playerid][pDiamonds] ++;
 				SCM(playerid, COLOR_WHITE, "Damn! Bingo you just found a diamonds along with that ruby!");
 			}
 			case 71..100:
 			{
-				cost = 1100 + random(200);
+				cost = 1150 + random(200);
 				PlayerInfo[playerid][pDiamonds] ++;
 				SCM(playerid, COLOR_WHITE, "BINGO!, you just found a diamond, we're going to be damn rich!");
 			}
@@ -45752,8 +45752,8 @@ stock AddTruckDeliveries()
 				Deliveries[ i ][ j ][ delivery_depot ] = random(sizeof(TruckDepots));
 			}
  			Deliveries[ i ][ j ][ delivery_type ] = DELIVERY_AVAILABLE;
-			Deliveries[ i ][ j ][ delivery_weight ] = minrand(5, 11);
-			Deliveries[ i ][ j ][ delivery_cash ] = (minrand(100, 121)) * Deliveries[ i ][ j ][ delivery_weight ];
+			Deliveries[ i ][ j ][ delivery_weight ] = minrand(6, 12);
+			Deliveries[ i ][ j ][ delivery_cash ] = (minrand(121, 150)) * Deliveries[ i ][ j ][ delivery_weight ];
 			new index = random( sizeof( RandomDeliveryName ) );
 			strmid( Deliveries[ i ][ j ][ delivery_name ], RandomDeliveryName[index], 0, strlen( RandomDeliveryName[index] ), 48);
 		}
@@ -60319,11 +60319,15 @@ public OnPlayerEnterDynamicArea(playerid, areaid)
 							else
 							{
 								new cash = Deliveries[ depot ][ del ][ delivery_cash ];
+								if(gDoubleSalary)
+								{
+									cash = cash*2;
+									SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
+								}
 								Deliveries[ depot ][ del ][ delivery_type ] = DELIVERY_DONE;
 								SM(playerid, COLOR_LIGHTGREEN, "You made a delivery of %s and earned $%d.", Deliveries[ depot ][ del ][ delivery_name ], cash);
 								GivePlayerCash( playerid, cash );
 								ResetPlayerDelivery(playerid, j);
-								//BussinesJobMoney( JOB_TRUCKER, 50 );
 							}
 						}
 					}
@@ -60531,6 +60535,12 @@ public OnPlayerEnterCheckpoint(playerid)
 			}
 			AddToTaxVault(floatround((amount*Tax_Pay)));
 			amount = floatround((amount*Payment));
+			if(gDoubleSalary)
+			{
+				amount = amount*2;
+				tip = tip*2;
+				SCM(playerid, COLOR_AQUA, "You got double salary!");
+			}
 			GivePlayerCash(playerid, amount);
 			GivePlayerCash(playerid, tip);
 			
@@ -61072,6 +61082,11 @@ public OnPlayerEnterCheckpoint(playerid)
 				new cash = random(2500) + 200;
 				new cashh = floatround(cash * Payment);
 				new taxx = floatround(cash * Tax_Pay);
+				if(gDoubleSalary)
+				{
+					cashh = cashh * 2;
+					SCM(playerid, COLOR_AQUA, "You got 2x payment!");
+				}
 				GivePlayerCash(playerid, cashh);
 				AddToTaxVault(taxx);
 				SM(playerid, COLOR_AQUA, "You paid "CXRP"$%i "AQUA"on this job and 20 parcent deducted as tax. You got "CXRP"$%i"AQUA".", cash, cashh);
@@ -77284,8 +77299,9 @@ CMD:loadfood(playerid, params[])
 	new Float:distance = floatsqroot(floatpower(floatabs(floatsub(x2,x1)), 2)+floatpower(floatabs(floatsub(y2,y1)), 2)+floatpower(floatabs(floatsub(z2,z1)), 2));
 	PlayerInfo[playerid][pCP] = CHECKPOINT_YFOOD;
 
-	pizzatimer[playerid] = floatround(distance*0.06);
-	PizzaPay[playerid] = floatround(distance*0.61) + random(200);
+	pizzatimer[playerid] = floatround(distance*0.065);
+	PizzaPay[playerid] = floatround(distance*0.070) + random(200);
+	
 	ShowTimerTD(playerid);
 	format(string, sizeof(string), "%d" ,pizzatimer[playerid]);
 	PlayerTextDrawSetString( playerid, timer_td[playerid][2], string );
@@ -77575,7 +77591,7 @@ CMD:blackmarket(playerid, params[])
 
 CMD:world(playerid, params[])
 {
-	SM(playerid, COLOR_AQUA, "world: %i", GetPlayerVirtualWorld(playerid));
+	SM(playerid, COLOR_AQUA, "world: %i, Interior: %i", GetPlayerVirtualWorld(playerid), GetPlayerInterior(playerid));
 	return 1;
 }
 
