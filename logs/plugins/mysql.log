@@ -1,0 +1,679 @@
+[17:03:54] [WARNING] mysql_connect: no password specified
+[17:05:24] [WARNING] mysql_connect: no password specified
+[17:05:36] [WARNING] mysql_connect: no password specified
+[17:06:05] [WARNING] mysql_connect: no password specified
+[17:06:46] [WARNING] mysql_connect: no password specified
+[09/14/23 21:30:59] [ERROR] mysql_connect: handle error: no database specified
+[09/14/23 21:30:59] [ERROR] mysql_errno: invalid connection handle '0'
+[09/14/23 21:32:17] [ERROR] mysql_connect: handle error: no database specified
+[09/14/23 21:32:17] [ERROR] mysql_errno: invalid connection handle '0'
+[09/14/23 21:34:20] [WARNING] mysql_connect: no password specified
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:34:30] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:05] [WARNING] mysql_connect: no password specified
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:35:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 21:38:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/14/23 21:59:42] [WARNING] mysql_connect: no password specified
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:00:00] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:12] [WARNING] mysql_connect: no password specified
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:04:18] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:06:02] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:06:02] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:06:15] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:06:15] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:10:18] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:41] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:11:44] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:11:44] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:29] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:12:31] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:12:31] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:13:19] [WARNING] mysql_connect: no password specified
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:13:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:14:14] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:14:14] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:14:28] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:14:28] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:16:30] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:16:30] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:16:48] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:16:48] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:17:53] [ERROR] mysql_format: invalid connection handle '0'
+[09/14/23 22:17:53] [ERROR] mysql_tquery: invalid connection handle '0'
+[09/14/23 22:26:19] [WARNING] mysql_connect: no password specified
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:26:59] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/14/23 22:39:52] [WARNING] mysql_connect: no password specified
+[09/14/23 22:39:52] [WARNING] duplicate connection detected: handle id 1 already exists with host = '127.0.0.1', username = 'root' and database = 'samp'
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:39:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:40:03] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/14/23 22:40:05] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/14/23 22:40:09] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/14/23 22:50:21] [WARNING] mysql_connect: no password specified
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:26] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/14/23 22:50:50] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 12:26:25] [WARNING] mysql_connect: no password specified
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:26:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 12:27:31] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 14:45:02] [WARNING] mysql_connect: no password specified
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 14:45:28] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 14:46:37] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 15:58:38] [WARNING] mysql_connect: no password specified
+[09/15/23 15:58:38] [WARNING] mysql_connect: no password specified
+[09/15/23 15:58:38] [WARNING] duplicate connection detected: handle id 1 already exists with host = '127.0.0.1', username = 'root' and database = 'samp'
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:58:43] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 15:59:57] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 16:11:10] [WARNING] mysql_connect: no password specified
+[09/15/23 16:11:11] [WARNING] mysql_connect: no password specified
+[09/15/23 16:11:11] [WARNING] duplicate connection detected: handle id 1 already exists with host = '127.0.0.1', username = 'root' and database = 'samp'
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:11:32] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 16:13:06] [WARNING] mysql_connect: no password specified
+[09/15/23 16:13:07] [WARNING] mysql_connect: no password specified
+[09/15/23 16:13:07] [WARNING] duplicate connection detected: handle id 1 already exists with host = '127.0.0.1', username = 'root' and database = 'samp'
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:13:38] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/15/23 16:19:57] [WARNING] mysql_connect: no password specified
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:19:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/15/23 16:20:10] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 12:48:24] [WARNING] mysql_connect: no password specified
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:48:27] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:49:49] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 12:53:35] [WARNING] mysql_connect: no password specified
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:36] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 12:53:55] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 15:15:17] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 15:21:19] [WARNING] mysql_connect: no password specified
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:21:39] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 15:23:23] [WARNING] mysql_connect: no password specified
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:23:42] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 15:27:37] [WARNING] mysql_connect: no password specified
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:27:40] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:28:01] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 15:32:47] [WARNING] mysql_connect: no password specified
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:32:49] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 15:33:05] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 16:14:17] [WARNING] mysql_connect: no password specified
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:14:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 16:15:27] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/16/23 16:15:32] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:08:11] [WARNING] mysql_connect: no password specified
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:08:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:09:10] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:12:18] [WARNING] mysql_connect: no password specified
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:12:47] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:16:05] [WARNING] mysql_connect: no password specified
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:16:38] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:18:51] [WARNING] mysql_connect: no password specified
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:18:52] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:19:12] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:22:04] [WARNING] mysql_connect: no password specified
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:22:26] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 18:26:14] [WARNING] mysql_connect: no password specified
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:14] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 18:26:36] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 20:11:42] [WARNING] mysql_connect: no password specified
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:11:45] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:09] [WARNING] mysql_connect: no password specified
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:43:54] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 20:51:50] [WARNING] mysql_connect: no password specified
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:51:54] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:52:17] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/16/23 20:52:20] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 20:53:31] [WARNING] mysql_connect: no password specified
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:53:47] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 20:55:31] [WARNING] mysql_connect: no password specified
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:55:32] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [WARNING] mysql_connect: no password specified
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 20:57:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:33] [WARNING] mysql_connect: no password specified
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:04:34] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:30] [WARNING] mysql_connect: no password specified
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:07:31] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [WARNING] mysql_connect: no password specified
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:08:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [WARNING] mysql_connect: no password specified
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:09:56] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:10:31] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:12:23] [WARNING] mysql_connect: no password specified
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:23] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:12:39] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:15:50] [WARNING] mysql_connect: no password specified
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:15:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:16:08] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:18:33] [WARNING] mysql_connect: no password specified
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:18:33] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:19:01] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:23:36] [WARNING] mysql_connect: no password specified
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:23:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:24:03] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:28:11] [WARNING] mysql_connect: no password specified
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:28:30] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:29:44] [WARNING] mysql_connect: no password specified
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:29:44] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:30:10] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:32:52] [WARNING] mysql_connect: no password specified
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:32:53] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:33:07] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 21:49:01] [WARNING] mysql_connect: no password specified
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:49:08] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:23] [WARNING] mysql_connect: no password specified
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 21:59:25] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:28] [WARNING] mysql_connect: no password specified
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:22:35] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:23:51] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:25:23] [WARNING] mysql_connect: no password specified
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:28] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:25:44] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:27:09] [WARNING] mysql_connect: no password specified
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:27:22] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:28:24] [WARNING] mysql_connect: no password specified
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:28:45] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:29:45] [WARNING] mysql_connect: no password specified
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:29:57] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:31:05] [WARNING] mysql_connect: no password specified
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:05] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:23] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/16/23 23:31:57] [WARNING] mysql_connect: no password specified
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:31:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/16/23 23:32:17] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/17/23 11:09:53] [WARNING] mysql_connect: no password specified
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:09:57] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 11:11:08] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/17/23 14:08:19] [WARNING] mysql_connect: no password specified
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:08:21] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/17/23 14:09:03] [ERROR] cache_get_value_name_int: field 'food' not found
+[09/22/23 19:45:37] [WARNING] mysql_connect: no password specified
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/22/23 19:45:46] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:43] [WARNING] mysql_connect: no password specified
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:42:51] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:48] [WARNING] mysql_connect: no password specified
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:46:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:09] [WARNING] mysql_connect: no password specified
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:55:10] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:11] [WARNING] mysql_connect: no password specified
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:57:13] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:28] [WARNING] mysql_connect: no password specified
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:58:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [WARNING] mysql_connect: no password specified
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 20:59:12] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [WARNING] mysql_connect: no password specified
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:00:41] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:57] [WARNING] mysql_connect: no password specified
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:01:58] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [WARNING] mysql_connect: no password specified
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:02:48] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:08] [WARNING] mysql_connect: no password specified
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:11] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [WARNING] mysql_connect: no password specified
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:16:24] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/23/23 21:24:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:00:19] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:20:04] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:39] [WARNING] mysql_connect: no password specified
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:22:50] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:26] [WARNING] mysql_connect: no password specified
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:29] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:33:45] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[09/26/23 21:41:57] [WARNING] mysql_connect: no password specified
+[09/26/23 21:42:49] [WARNING] mysql_connect: no password specified
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:42:55] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:03] [WARNING] mysql_connect: no password specified
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
+[09/26/23 21:46:06] [ERROR] cache_get_value_name_int: value 'NULL' is not a number
