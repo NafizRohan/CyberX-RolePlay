@@ -77299,7 +77299,7 @@ CMD:loadfood(playerid, params[])
 	new Float:distance = floatsqroot(floatpower(floatabs(floatsub(x2,x1)), 2)+floatpower(floatabs(floatsub(y2,y1)), 2)+floatpower(floatabs(floatsub(z2,z1)), 2));
 	PlayerInfo[playerid][pCP] = CHECKPOINT_YFOOD;
 
-	pizzatimer[playerid] = floatround(distance*0.065);
+	pizzatimer[playerid] = floatround(distance*0.075);
 	PizzaPay[playerid] = floatround(distance*0.070) + random(200);
 	
 	ShowTimerTD(playerid);
