@@ -699,6 +699,48 @@ DCMD:top(user, channel, params[])
 	return 1;
 }
 
+DCMD:doublesalary(user, channel, params[])
+{
+	new channelid[DCC_ID_SIZE];
+	DCC_GetChannelId(channel, channelid, sizeof(channelid));
+	if(!strcmp(channelid, "1148941899198103654", true))
+	{
+		new DCC_Embed:embed = DCC_CreateEmbed();
+		if(!gDoubleSalary)
+		{
+			gDoubleSalary = true;
+			SMA(COLOR_AQUA, "** Admin enabled double salary. You will now gain double of any jobs salary.");
+		}
+		else
+		{
+			gDoubleSalary = false;
+			SMA(COLOR_AQUA, "** Admin disabled double salary.");
+		}
+		if(!Settings[gDoubleXP])
+		{
+			SendRconCommand("hostname [2XP!] "SERVER_NAME"("REVISION")");
+			Settings[gDoubleXP] = 1;
+			SMA(COLOR_AQUA, "** Admin enabled double experience. You will now gain double the respect points and job skill points.");
+		}
+		else
+		{
+			SendRconCommand("hostname "SERVER_NAME"("REVISION")");
+			Settings[gDoubleXP] = 0;
+			SMA(COLOR_AQUA, "** Admin disabled double experience.");
+		}
+		SaveServerInfo();
+		if(gDoubleSalary && Settings[gDoubleXP] == 1)
+		{
+			DCC_SetEmbedTitle(embed, "Bingo!");
+			DCC_AddEmbedField(embed, "News:", "```diff\n+ Double Salary & Double XP Enabled for 1hr! Go and grind.\n```|| @here ||");
+		}
+		DCC_SendChannelEmbedMessage(DCC_FindChannelById("1098551680271929415"), embed);
+		return 1;
+	}
+	return 1;
+}
+
+
 AddCommasEx(number, const separator[] = ",")
 {
 	new output[15];
