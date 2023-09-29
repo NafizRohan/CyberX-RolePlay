@@ -60897,7 +60897,7 @@ public OnPlayerEnterCheckpoint(playerid)
 		case CHECKPOINT_TRUCKER:
 		{
 			new businessid, products, amount;
-			businessid = GetNearbyBusiness(playerid, 7.0);
+			businessid = GetNearbyBusiness(playerid, 5.0);
 
 			if(!PlayerHasJob(playerid, JOB_TRUCKER))
 			{
@@ -60937,31 +60937,31 @@ public OnPlayerEnterCheckpoint(playerid)
 
 			if(PlayerInfo[playerid][pShipment] == LOADTYPE_STORE)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 750;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 800;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_CLOTHES)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 700;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 750;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_RESTAURANT)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 650;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 700;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_BARCLUB)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 600;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 650;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_GUNSHOP)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 750;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 800;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_GYM)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 600;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 750;
 			}
 			else if(PlayerInfo[playerid][pShipment] == LOADTYPE_AGENCY)
 			{
-				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 600;
+				amount = (GetJobLevel(playerid, JOB_TRUCKER) * 250) + 650;
 			}
 
 			if(PlayerInfo[playerid][pIllegalCargo] == LOADTYPE_ILLEGAL)
@@ -60978,6 +60978,7 @@ public OnPlayerEnterCheckpoint(playerid)
 				amount = amount*2;
 				SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
 			}
+			amount = amount + random(50);
 			SM(playerid, COLOR_AQUA, "** You have earned "CXRP"$%i{33CCFF} on your paycheck for delivering %i products.", amount, products);
 			GivePlayerCash(playerid, amount);
 
@@ -61098,7 +61099,7 @@ public OnPlayerEnterCheckpoint(playerid)
 					cashh = cashh * 2;
 					SCM(playerid, COLOR_AQUA, "You got 2x payment!");
 				}
-				
+
 				SM(playerid, COLOR_AQUA, "You paid "CXRP"$%i "AQUA"on this job and 20 parcent deducted as tax. You got "CXRP"$%i"AQUA".", cash, cashh);
 				if(JobVeh[playerid] != INVALID_VEHICLE_ID)
 				{
