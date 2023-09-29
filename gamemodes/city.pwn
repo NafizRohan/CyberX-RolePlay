@@ -24761,33 +24761,33 @@ public miningpay(playerid)
 	new cost;
 	if(PlayerInfo[playerid][pMiningRock] == 1)
 	{
-		cost = 70 + random(200);
+		cost = 100 + random(200);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 2)
 	{
-		cost = 200 + random(250);
+		cost = 220 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 3) // Musgravite
 	{
-		cost = 350 + random(250);
+		cost = 370 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 4) // Gold
 	{
-		cost = 550 + random(250);
+		cost = 570 + random(250);
 	}
 	else if(PlayerInfo[playerid][pMiningRock] == 5) // Diamond
 	{
 		new rock = random(100);
 		switch(rock)
 		{
-			case 0..40:
+			case 0..35:
 			{
 				cost = 720 + random(250);
 				SendClientMessage(playerid, COLOR_WHITE, "Bam, a great stone indeed, the fact you can find stuff in this dump makes me wonder whether theres a diamond hidden in there somewhere.");
 				PlayerInfo[playerid][pDiamonds] ++;
 				SCM(playerid, COLOR_WHITE, "Damn! Bingo you just found a diamond along with that great stone!");
 			}
-			case 41..70:
+			case 46..70:
 			{
 				cost = 1000 + random(200);
 				SendClientMessage(playerid, COLOR_WHITE, "Looks like a ruby, awesome. I'll be sending this Mining Enterprises immediately.");
@@ -24809,14 +24809,15 @@ public miningpay(playerid)
 	{
 		cost += percent(cost, PlayerInfo[playerid][pLaborUpgrade]);
 	}
+	
+	GivePlayerCash(playerid, floatround(cost*Payment));
+	AddToTaxVault(floatround(cost*Tax_Pay));
+
 	if(gDoubleSalary)
 	{
 		cost = cost*2;
 		SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
 	}
-
-	GivePlayerCash(playerid, floatround(cost*Payment));
-	AddToTaxVault(floatround(cost*Tax_Pay));
 
 	SM(playerid, COLOR_AQUA, "You have earned $%i on your paycheck for your mined rock.", floatround(cost*Payment));
 	ApplyAnimation(playerid, "CARRY", "putdwn", 4.1, 0, 0, 0, 0, 0, 1);
@@ -60644,6 +60645,12 @@ public OnPlayerEnterCheckpoint(playerid)
 			}
 			GivePlayerCash(playerid, floatround(cost*Payment));
 			AddToTaxVault(floatround(cost*Tax_Pay));
+
+			if(gDoubleSalary)
+			{
+				cost = cost*2;
+				SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
+			}
 			
 			SM(playerid, COLOR_AQUA, "You have earned $%i on your paycheck for your packaging meat.", floatround(cost*Payment));
 			ApplyAnimation(playerid, "CARRY", "putdwn", 4.1, 0, 0, 0, 0, 0, 1);
@@ -77228,7 +77235,7 @@ GetRandomHouse(playerid) // For pizzaboy job.
 	{
 	    if(HouseInfo[i][hExists] && HouseInfo[i][hOutsideInt] == 0 && HouseInfo[i][hOutsideVW] == 0)
 	    {
-	        if(300.0 <= GetPlayerDistanceFromPoint(playerid, HouseInfo[i][hPosX], HouseInfo[i][hPosY], HouseInfo[i][hPosZ]) <= 30000)
+	        if(300.0 <= GetPlayerDistanceFromPoint(playerid, HouseInfo[i][hPosX], HouseInfo[i][hPosY], HouseInfo[i][hPosZ]) <= 2000)
 	        {
 	        	houseIDs[index++] = i;
 			}
@@ -77263,10 +77270,10 @@ CMD:getfood(playerid, params[])
 	{
 	    return SCM(playerid, COLOR_SYNTAX, "You must be at the yFood Pickup Point.");
 	}
-	if((houseid = GetRandomHouse(playerid)) == -1)
+	/*if((houseid = GetRandomHouse(playerid)) == -1)
 	{
 	    return SCM(playerid, COLOR_SYNTAX, "There are no houses in the server to deliver food to. Ask an admin to set them up.");
-	}
+	}*/
 	Freeze(playerid);
 	PlayerInfo[playerid][pLoadingFood] = 1;
 	GameTextForPlayer(playerid,"~w~Picking up food\nPlease wait..", 8000, 3);
@@ -77280,15 +77287,21 @@ CMD:loadfood(playerid, params[])
 	new Float:x, Float:y, Float:z;
 	new Float:x1, Float:y1, Float:z1;
 	new Float:x2, Float:y2, Float:z2;
-
+	houseid = GetRandomHouse(playerid);
 	GetVehiclePos(JobVeh[playerid], x, y, z);
 	if(GetVehicleModel(JobVeh[playerid]) != 448) return SCM(playerid, COLOR_SYNTAX, "You didn't spawn any pizza vehicle.");
 	if(!IsPlayerInRangeOfPoint(playerid, 2.5, x, y, z)) return SCM( playerid, COLOR_SYNTAX, "You're not next to a pizza bike." );
 	if(PlayerInfo[playerid][pFoodLoaded] == 0) return SCM(playerid, COLOR_SYNTAX, "You didn't took any food.");
 	if(PlayerInfo[playerid][pFoodLoadVeh] != 0) return SCM(playerid, COLOR_SYNTAX, "You already load a package in your bike.");
+	if((houseid = GetRandomHouse(playerid)) == -1)
+	{
+		RemovePlayerAttachedObject( playerid, 4 );
+		PlayAnimation( playerid, "CARRY", "putdwn", 3.0, 0, 0, 0, 0, 0 );
+	    return SCM(playerid, COLOR_SYNTAX, "There are no houses in the server to deliver food to. Ask an admin to set them up.");
+	}
 	RemovePlayerAttachedObject( playerid, 4 );
 	PlayAnimation( playerid, "CARRY", "putdwn", 3.0, 0, 0, 0, 0, 0 );
-	houseid = GetRandomHouse(playerid);
+
 	SetPlayerCheckpoint(playerid, HouseInfo[houseid][hPosX], HouseInfo[houseid][hPosY], HouseInfo[houseid][hPosZ], 2.0);
 	GetPlayerPos(playerid, x1, y1, z1);
 
