@@ -6,7 +6,7 @@
 #pragma disablerecursion
 
 #define SERVER_BOT       "Nafiz"
-#define REVISION         "v1.03"
+#define REVISION         "v1.03 - Alpha"
 #define SERVER_NAME      "CyberX RolePlay"
 #define SERVER_DIALOG    "{FFFF00}CyberX RolePlay {FFFFFF}v1.03"
 #define SERVER_URL       "https://discord.gg/hnuDH3fbwh"
@@ -24933,7 +24933,7 @@ CMD:vip(playerid, params[])
 
 CMD:donate(playerid, params[])
 {
-	return SCM(playerid, COLOR_WHITE, "You can find the full list of donatable items on our Discord. Check our Discord for it! https://cyberx-rp.com/discord");
+	return SCM(playerid, COLOR_WHITE, "You can find the full list of donatable items on our Discord. Check our Discord for it! https://discord.gg/hnuDH3fbwh");
 }
 
 CMD:viplocker(playerid, params[]) return callcmd::donatorlocker(playerid, params);
@@ -41196,7 +41196,7 @@ forward MinuteTimer();
 public MinuteTimer()
 {
 	#if defined DISCORD
-		DCC_SetBotActivity("https://cyberx-rp.com");
+		DCC_SetBotActivity("https://discord.gg/hnuDH3fbwh");
 	#endif
 
 	new engine, lights, alarm, doors, bonnet, boot, objective;
@@ -43848,7 +43848,7 @@ public OnQueryFinished(threadid, extraid)
 	        }
 	        else
 	        {
-			    ShowPlayerDialog(extraid, 0, DIALOG_STYLE_MSGBOX, "CXRP Whitelist System", "Recently, Due to massive hacking on our server we had no choice but to enable {00FF00}Whitelist System{FFFFFF}\n\nYour current name is {FF0000}not whitelisted{FFFFFF} on our server\nIn-order to play here, you need to request to {00FF00}whitelist{FFFFFF} your name\n\nIf you wanna get {00FF00}whitelisted{FFFFFF}, Goto our {5865F2}Discord Server (Link: www.cyberx-rp.com/samp){FFFFFF} and find\nThe channel named {FF0000}#request-whitelist{FFFFFF}. Request there to get whitelisted NOW!", "Okay", "");
+			    ShowPlayerDialog(extraid, 0, DIALOG_STYLE_MSGBOX, "CXRP Whitelist System", "Recently, Due to massive hacking on our server we had no choice but to enable {00FF00}Whitelist System{FFFFFF}\n\nYour current name is {FF0000}not whitelisted{FFFFFF} on our server\nIn-order to play here, you need to request to {00FF00}whitelist{FFFFFF} your name\n\nIf you wanna get {00FF00}whitelisted{FFFFFF}, Goto our {5865F2}Discord Server (Link: https://discord.gg/hnuDH3fbwh){FFFFFF} and find\nThe channel named {FF0000}#request-whitelist{FFFFFF}. Request there to get whitelisted NOW!", "Okay", "");
 				KickPlayer(extraid);
 	        }
 		}
@@ -45879,7 +45879,7 @@ public OnGameModeInit()
 
 	Flint_WeedField = CreateDynamicRectangle(-1195.34375, -1062.9375839233398, -1002.34375, -905.9375839233398);
 	#if defined DISCORD
-		DCC_SetBotActivity("https://cyberx-rp.com");
+		DCC_SetBotActivity("https://discord.gg/hnuDH3fbwh");
 	#endif
 	LoadDepotsTruck();
 	mafiazone = CreateDynamicRectangle(1312.6036,-3874.241,1285.4950,-3891.7849);
