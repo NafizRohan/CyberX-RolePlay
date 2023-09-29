@@ -24809,15 +24809,17 @@ public miningpay(playerid)
 	{
 		cost += percent(cost, PlayerInfo[playerid][pLaborUpgrade]);
 	}
-	
-	GivePlayerCash(playerid, floatround(cost*Payment));
-	AddToTaxVault(floatround(cost*Tax_Pay));
 
 	if(gDoubleSalary)
 	{
 		cost = cost*2;
 		SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
 	}
+	
+	GivePlayerCash(playerid, floatround(cost*Payment));
+	AddToTaxVault(floatround(cost*Tax_Pay));
+
+	
 
 	SM(playerid, COLOR_AQUA, "You have earned $%i on your paycheck for your mined rock.", floatround(cost*Payment));
 	ApplyAnimation(playerid, "CARRY", "putdwn", 4.1, 0, 0, 0, 0, 0, 1);
@@ -60536,12 +60538,7 @@ public OnPlayerEnterCheckpoint(playerid)
 			}
 			AddToTaxVault(floatround((amount*Tax_Pay)));
 			amount = floatround((amount*Payment));
-			if(gDoubleSalary)
-			{
-				amount = amount*2;
-				tip = tip*2;
-				SCM(playerid, COLOR_AQUA, "You got double salary!");
-			}
+
 			GivePlayerCash(playerid, amount);
 			GivePlayerCash(playerid, tip);
 			
@@ -60643,15 +60640,16 @@ public OnPlayerEnterCheckpoint(playerid)
 			{
 			    cost = 1000 + random(200);
 			}
-			GivePlayerCash(playerid, floatround(cost*Payment));
-			AddToTaxVault(floatround(cost*Tax_Pay));
 
 			if(gDoubleSalary)
 			{
 				cost = cost*2;
 				SCM(playerid, COLOR_GREEN, "You have earned 2x of the salary.");
 			}
-			
+
+			GivePlayerCash(playerid, floatround(cost*Payment));
+			AddToTaxVault(floatround(cost*Tax_Pay));
+
 			SM(playerid, COLOR_AQUA, "You have earned $%i on your paycheck for your packaging meat.", floatround(cost*Payment));
 			ApplyAnimation(playerid, "CARRY", "putdwn", 4.1, 0, 0, 0, 0, 0, 1);
 
@@ -61090,15 +61088,17 @@ public OnPlayerEnterCheckpoint(playerid)
 				new cash = 2500 + random(2500);
 				new cashh = floatround(cash * Payment);
 				new taxx = floatround(cash * Tax_Pay);
-				
-				GivePlayerCash(playerid, cashh);
-				AddToTaxVault(taxx);
 
 				if(gDoubleSalary)
 				{
 					cashh = cashh * 2;
 					SCM(playerid, COLOR_AQUA, "You got 2x payment!");
 				}
+				
+				GivePlayerCash(playerid, cashh);
+				AddToTaxVault(taxx);
+
+				
 
 				SM(playerid, COLOR_AQUA, "You paid "CXRP"$%i "AQUA"on this job and 20 parcent deducted as tax. You got "CXRP"$%i"AQUA".", cash, cashh);
 				if(JobVeh[playerid] != INVALID_VEHICLE_ID)
