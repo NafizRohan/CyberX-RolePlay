@@ -734,6 +734,11 @@ DCMD:doublesalary(user, channel, params[])
 			DCC_SetEmbedTitle(embed, "Bingo!");
 			DCC_AddEmbedField(embed, "News:", "```diff\n+ Double Salary & Double XP Enabled for 1hr! Go and grind.\n```|| @here ||");
 		}
+		if(!gDoubleSalary && Settings[gDoubleXP] == 0)
+		{
+			DCC_SetEmbedTitle(embed, "information");
+			DCC_AddEmbedField(embed, "News:", "```diff\n- Double Salary & Double XP Disabled!\n```");
+		}
 		DCC_SendChannelEmbedMessage(DCC_FindChannelById("1098551680271929415"), embed);
 		return 1;
 	}
