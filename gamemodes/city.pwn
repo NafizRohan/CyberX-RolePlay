@@ -45731,10 +45731,10 @@ public LoadDepotsTruck()
 		TruckDepots[i][dynamic_area] = CreateDynamicCircle(TruckDepots[i][dep_x], TruckDepots[i][dep_y], 5.1);
 		CreateDynamicMapIcon(TruckDepots[i][dep_x], TruckDepots[i][dep_y], TruckDepots[i][dep_z], 51, -1, -1, -1, -1, 400, MAPICON_GLOBAL);
 		CreateDynamicPickup(1318, 1, TruckDepots[i][dep_x], TruckDepots[i][dep_y], TruckDepots[i][dep_z]);
-		CreateDynamic3DTextLabel("[Trucker]\n"WHITE"Loading Dock", COLOR_YELLOW, TruckDepots[i][dep_x], TruckDepots[i][dep_y], TruckDepots[i][dep_z], 10.5);
+		CreateDynamic3DTextLabel("[Purity Delivey]\n"WHITE"Loading Dock", COLOR_YELLOW, TruckDepots[i][dep_x], TruckDepots[i][dep_y], TruckDepots[i][dep_z], 10.5);
 		TruckDepots[i][pickup] = CreateDynamicPickup(1275, 1, TruckDepots[i][dep_pickupx], TruckDepots[i][dep_pickupy], TruckDepots[i][dep_pickupz]);
 		new string[128];
-		format( string, sizeof( string ), ""WHITE"[ "AQUA"Trucker "YELLOW"]\n"YELLOW"Warehouse: "WHITE"%s", TruckDepots[ i ][ dName ]);
+		format( string, sizeof( string ), ""WHITE"[ "AQUA"Purity Delivey "YELLOW"]\n"YELLOW"Warehouse: "WHITE"%s", TruckDepots[ i ][ dName ]);
 		CreateDynamic3DTextLabel( string, 0x008080FF, TruckDepots[ i ][ dep_pickupx ], TruckDepots[ i ][ dep_pickupy ], TruckDepots[ i ][ dep_pickupz ], 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, -1, -1 );
 	}
 	AddTruckDeliveries();
@@ -45753,7 +45753,7 @@ stock AddTruckDeliveries()
 				Deliveries[ i ][ j ][ delivery_depot ] = random(sizeof(TruckDepots));
 			}
  			Deliveries[ i ][ j ][ delivery_type ] = DELIVERY_AVAILABLE;
-			Deliveries[ i ][ j ][ delivery_weight ] = minrand(6, 12);
+			Deliveries[ i ][ j ][ delivery_weight ] = minrand(5, 11);
 			Deliveries[ i ][ j ][ delivery_cash ] = (minrand(121, 150)) * Deliveries[ i ][ j ][ delivery_weight ];
 			new index = random( sizeof( RandomDeliveryName ) );
 			strmid( Deliveries[ i ][ j ][ delivery_name ], RandomDeliveryName[index], 0, strlen( RandomDeliveryName[index] ), 48);
@@ -45776,7 +45776,7 @@ stock RefreshTruckDeliveries()
 				}
 				Deliveries[ i ][ j ][ delivery_type ] = DELIVERY_AVAILABLE;
 				Deliveries[ i ][ j ][ delivery_weight ] = minrand(5, 11);
-				Deliveries[ i ][ j ][ delivery_cash ] = (minrand(100, 121)) * Deliveries[ i ][ j ][ delivery_weight ];
+				Deliveries[ i ][ j ][ delivery_cash ] = (minrand(121, 150)) * Deliveries[ i ][ j ][ delivery_weight ];
 				new index = random( sizeof( RandomDeliveryName ) );
 				strmid( Deliveries[ i ][ j ][ delivery_name ], RandomDeliveryName[index], 0, strlen( RandomDeliveryName[index] ), 48);
 			}
