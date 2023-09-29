@@ -61086,16 +61086,19 @@ public OnPlayerEnterCheckpoint(playerid)
 			}
 			else 
 			{
-				new cash = random(2500) + 200;
+				new cash = 2500 + random(2500);
 				new cashh = floatround(cash * Payment);
 				new taxx = floatround(cash * Tax_Pay);
+				
+				GivePlayerCash(playerid, cashh);
+				AddToTaxVault(taxx);
+
 				if(gDoubleSalary)
 				{
 					cashh = cashh * 2;
 					SCM(playerid, COLOR_AQUA, "You got 2x payment!");
 				}
-				GivePlayerCash(playerid, cashh);
-				AddToTaxVault(taxx);
+				
 				SM(playerid, COLOR_AQUA, "You paid "CXRP"$%i "AQUA"on this job and 20 parcent deducted as tax. You got "CXRP"$%i"AQUA".", cash, cashh);
 				if(JobVeh[playerid] != INVALID_VEHICLE_ID)
 				{
