@@ -63077,6 +63077,23 @@ public OnPlayerText(playerid, text[])
 	return 0;
 }
 
+public OnPlayerCommandText(playerid, cmdtext[])
+{
+	if(!strcmp("/parkour", cmdtext, true))
+    {
+        SetPlayerPos(playerid,1544.9849,-1353.7681,329.4735);
+        new name[128];
+        new string[256];
+        GetPlayerName(playerid,name,128);
+        format(string, sizeof(string), "%s SI й TELEPORTATO A /parkour",name);
+        SendClientMessageToAll(0x99FFFFAA, string);
+        SetPlayerInterior(playerid, 0);
+        PlayerPlaySound(playerid, 1054, 0.0, 0.0, 0.0);
+        return 1;
+    }
+	return 0;
+}
+
 public OnPlayerCommandReceived(playerid, cmd[], params[], flags)
 {
 	if(IsPlayerNPC(playerid)) return 1;
