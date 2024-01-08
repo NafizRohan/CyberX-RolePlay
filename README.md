@@ -8,7 +8,7 @@
 # About Script
 Script Main Developer: Adib23704 AKA Zahin Abdullah Adib.
 Discord: Adib23704#8947  
-Website: https://www.adib23704.tk
+Website: https://www.adib.lol
 
 > "It took me exactly 1 and half years to complete this whole script. Of course I
 Completed it slowly. Whoever next edits the script. Best of luck and this script Contains so many stories along with so many unique features coded by this single
