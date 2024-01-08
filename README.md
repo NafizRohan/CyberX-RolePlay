@@ -1,7 +1,7 @@
 # CyberX RolePlay (Introduction)
 > Owner: Shakawat Hossain
 
-> Current Developer: Nafiz Rohan & Mohammad Sibbir.
+> Ex Developer: Nafiz Rohan.
 
 #
 
